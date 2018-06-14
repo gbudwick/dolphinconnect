@@ -10,6 +10,8 @@ namespace DolphinConnect.Client
     {
         static void Main( string[ ] args )
         {
+            var director = new Director();
+            director.Initialize();
         }
     }
 }
